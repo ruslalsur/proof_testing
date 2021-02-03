@@ -1,0 +1,54 @@
+html, body {
+  background-color: rgb(230, 184, 184);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.wrapper {
+  background-color: rgba(233, 231, 109, 0.746);
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgb(95, 102, 209);
+  display: grid;
+  grid-template-rows: 60px auto 100px;
+  height: 100vh;
+  
+}
+
+.block1 {
+  background-color: rgb(184, 230, 186);
+}
+
+.block2 {
+  background-color: rgb(184, 205, 230);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  overflow-y: auto;
+}
+
+.aside {
+  background-color: rgb(167, 94, 94);
+}
+
+.content {
+  background-color: rgb(56, 163, 62);
+}
+
+.block {
+  display: flex;
+  margin: 70px auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 500px;
+}
+
+.block3 {
+  background-color: rgb(222, 184, 230);
+}
